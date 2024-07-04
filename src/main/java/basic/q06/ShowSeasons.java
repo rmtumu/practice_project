@@ -3,10 +3,8 @@ package basic.q06;
 public class ShowSeasons {
 
 	public static void main(String[] args) {
-
 		//月を意味する整数値が代入されている変数を宣言
 		int month = 18;
-
 		//月を意味する整数値が代入されている変数の値に応じて、季節を表示する
 		switch (month) {
 		case 1, 2, 12:
@@ -23,7 +21,6 @@ public class ShowSeasons {
 			break;
 		default:
 			System.out.println(month + "月は存在しないです。");
-
 		}
 
 	}

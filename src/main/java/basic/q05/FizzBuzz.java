@@ -3,10 +3,8 @@ package basic.q05;
 public class FizzBuzz {
 
 	public static void main(String[] args) {
-
 		// if文を使用し1～100までの整数を表示する
 		for (int i = 1; i <= 100; i++) {
-
 			if (i % 15 == 0) {
 				System.out.println("FizzBuzz");// 3の倍数かつ5の倍数はFizzBuzzと表示する
 			} else if (i % 5 == 0) {
